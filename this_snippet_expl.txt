@@ -1,0 +1,11 @@
+Explanation
+----------------------
+
+Snippets are a piece of code which a developer can implement and use it multiple times.
+Snippets are not only for simple things.
+Basic snippet operations are fields ,place holders,mirrored fields and substitutions.
+The above snippet deals with this keyword.
+In content tag the data will be included.
+CDATA means telling to xml to don't interrupt the code that is going to be include.
+The tab trigger in the above example is thisob, after entering thisob and tab space the content will be displayed in place of ifwrap.
+scope varies from language to language in javascript the scope is source.js

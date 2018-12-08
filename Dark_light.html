@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dark and light mode</title>
+<script>
+         function changeBodyBg(color)
+         {
+         document.body.style.background = color;
+         }
+        function bodycl(color)
+        {
+        document.body.style.color= color;
+        }
+</script>
+<style>
+         body{
+    	font-family: sans-serif;
+    	font-size: 20px;
+    	}
+</style>
+</head>
+<body>
+<script type="text/javascript">
+           function onoff()
+           {
+           currentvalue = document.getElementById('onoff').value;
+           if(currentvalue == "light")
+           {
+           document.getElementById("onoff").value="dark";
+           }
+           else
+           {
+           document.getElementById("onoff").value="light";
+           }
+           }
+</script>
+<h3>Dark and Light mode</h3>
+<p>The difference between darkness and light will always remain— the stars and the moon will always need the darkness to be seen, the darkness will just not be worth having without the moon and the stars</p>
+
+<input type="button" value="dark" id="onoff" onclick="onoff();changeBodyBg('black');bodycl('white');">
+</body>
+</html>
